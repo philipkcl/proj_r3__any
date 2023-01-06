@@ -13,5 +13,7 @@ setup(
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(exclude=[]),
     scripts=[],
-    install_requires=[],
+    install_requires=[
+        'requests',
+    ],
 )
